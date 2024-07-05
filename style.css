@@ -1,0 +1,63 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: #333;
+    color: white;
+    z-index: 1000;
+    transition: background 0.3s, color 0.3s;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    padding: 1em;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ff6347; /* Example color when hovered */
+}
+
+section {
+    padding: 100px;
+    margin-top: 60px; /* Adjust based on header height */
+}
+
+#home {
+    height: 100vh;
+    background: lightblue;
+}
+
+#about {
+    height: 100vh;
+    background: lightgreen;
+}
+
+#services {
+    height: 100vh;
+    background: lightcoral;
+}
+
+#contact {
+    height: 100vh;
+    background: lightgoldenrodyellow;
+}
